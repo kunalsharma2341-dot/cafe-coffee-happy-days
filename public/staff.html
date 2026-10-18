@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <base href="/" />
+    <title>Staff dashboard | Happy Days</title>
+    <link rel="stylesheet" href="order.css" />
+    <link rel="icon" href="assets/outlet-logo.png" />
+    <script src="menu-data.js" defer></script>
+    <script src="order-core.js" defer></script>
+    <script src="staff-shell.js" defer></script>
+  </head>
+  <body data-page="staff">
+    <p id="staff-loading" class="app-wrap" role="status">Checking staff access…</p>
+    <div id="staff-app" hidden>
+      <header class="app-header">
+        <a class="app-brand" href="index.html"
+          ><img src="assets/outlet-logo.png" alt="Happy Days logo" /><span
+            ><small>CAFE COFFEE</small><strong>HAPPY DAYS</strong></span
+          ></a
+        >
+        <nav>
+          <a href="index.html">Website</a><a href="order.html">Customer menu</a
+          ><a href="/staff">Staff dashboard</a
+          ><button type="button" id="staff-logout">Sign out</button>
+        </nav>
+      </header>
+      <div class="demo-note" style="background: #e2efdf; color: #2c653a">
+        Protected staff area · Staff sign-in required to manage orders.
+      </div>
+      <main class="app-wrap">
+        <section class="intro staff-intro">
+          <div>
+            <p class="kicker">HAPPY DAYS · STAFF</p>
+            <h1>Orders & tables</h1>
+            <p>Review incoming orders and keep customers updated.</p>
+          </div>
+          <span class="status status-Served">Staff access verified</span>
+        </section>
+        <section id="metrics" class="metrics"></section>
+        <div class="dashboard-layout">
+          <section>
+            <div class="panel-title">
+              <h2>Order queue</h2>
+              <a href="/api/orders/export" download>Export orders</a
+              ><span id="updated">Updated just now</span>
+            </div>
+            <div class="queue-controls">
+              <label
+                >View orders
+                <select id="status-filter">
+                  <option value="active">Active orders</option>
+                  <option value="all">All orders</option>
+                  <option value="Pending">Pending</option>
+                  <option value="Preparing">Preparing</option>
+                  <option value="Ready">Ready</option>
+                  <option value="Served">Served</option>
+                  <option value="Rejected">Rejected</option>
+                  <option value="Cancelled">Cancelled</option>
+                </select></label
+              ><label
+                >Search<input type="search" id="order-search" placeholder="Order ID or table"
+              /></label>
+            </div>
+            <div id="queue"></div>
+          </section>
+          <aside>
+            <h2>Tables</h2>
+            <div id="tables" class="tables"></div>
+            <div class="staff-help">
+              <h3>Try the customer flow</h3>
+              <p>
+                Customer orders are saved on the server. This dashboard refreshes every five
+                seconds, including orders from other devices.
+              </p>
+              <a href="order.html" target="_blank" rel="noopener">Open customer menu ↗</a>
+              <p>
+                Sign out when you finish. Staff permissions are checked on every server request.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </main>
+      <div id="announcer" class="sr-only" role="status"></div>
+    </div>
+  </body>
+</html>

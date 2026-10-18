@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Staff sign in | Happy Days</title>
+    <link rel="stylesheet" href="order.css" />
+    <script src="staff-login.js" defer></script>
+  </head>
+  <body>
+    <header class="app-header">
+      <a class="app-brand" href="index.html"
+        ><img src="assets/outlet-logo.png" alt="" /><span
+          ><small>CAFE COFFEE</small><strong>HAPPY DAYS</strong></span
+        ></a
+      ><a href="menu.html">Customer menu</a>
+    </header>
+    <main class="staff-login-wrap">
+      <p class="kicker">STAFF ACCESS</p>
+      <h1>Welcome back.</h1>
+      <p>Sign in to review table orders and update preparation status.</p>
+      <form id="staff-login-form">
+        <label for="staff-password">Staff password</label
+        ><input
+          type="password"
+          id="staff-password"
+          required
+          autocomplete="current-password"
+          minlength="12"
+          maxlength="256"
+        /><button class="primary" id="login-submit">Sign in</button>
+        <p id="login-feedback" role="status" aria-live="polite"></p>
+      </form>
+      <p class="muted">Customers can order without a staff account.</p>
+      <a href="order.html">Open the customer menu →</a>
+    </main>
+  </body>
+</html>

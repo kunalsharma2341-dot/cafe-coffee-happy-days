@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="assets/outlet-logo.png" />
+    <link rel="stylesheet" href="order.css" />
+    <script src="menu-data.js" defer></script>
+    <script src="order-core.js" defer></script>
+    <script src="menu-details-data.js"></script>
+    <script src="menu-photos.js"></script>
+    <script src="ordering.js" defer></script>
+    <title>Order at your table | Happy Days</title>
+  </head>
+  <body data-page="customer">
+    <div id="cafe-qr-welcome" class="cafe-qr-welcome" aria-hidden="true">
+      <div class="cafe-welcome-glow"></div>
+      <div class="coffee-welcome-card">
+        <div class="steam-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="coffee-cup-mark" aria-hidden="true">
+          <div class="cup-fill"></div>
+          <i></i>
+        </div>
+        <p class="welcome-kicker">TABLE 02 · HAPPY DAYS</p>
+        <h2>Your table menu is opening.</h2>
+        <p class="welcome-sub">Coffee, food & good company — right from your table.</p>
+        <div class="welcome-progress"><span></span></div>
+      </div>
+    </div>
+    <header class="app-header">
+      <a class="app-brand" href="index.html"
+        ><img src="assets/outlet-logo.png" alt="Happy Days logo" /><span
+          ><small>CAFE COFFEE</small><strong>HAPPY DAYS</strong></span
+        ></a
+      >
+      <nav>
+        <a href="index.html">Website</a><a href="order.html">Customer menu</a
+        ><a href="/staff">Staff dashboard</a>
+      </nav>
+    </header>
+    <div class="demo-note">
+      Order directly with Happy Days · No customer sign-up needed · Pay at the café.
+    </div>
+    <main class="app-wrap">
+      <section class="intro">
+        <p class="kicker">DINE IN · PURE VEGETARIAN</p>
+        <h1>Choose your favourites.</h1>
+        <p>
+          Your table. Your favourites. Add dishes below and send your order directly to our team.
+        </p>
+      </section>
+      <div class="customer-layout">
+        <section>
+          <div class="table-bar">
+            <label
+              >Your table
+              <select id="table"></select></label
+            ><span id="table-message">Choose a table to begin.</span>
+          </div>
+          <div class="menu-tools">
+            <label class="search-label"
+              >Search the menu<input
+                id="item-search"
+                type="search"
+                placeholder="Burger, sandwich, pasta…"
+            /></label>
+            <div id="categories" class="pills" aria-label="Menu categories"></div>
+          </div>
+          <p class="muted">
+            Listed menu prices. Staff review your order before preparation. Representative food
+            photos; actual presentation may differ.
+          </p>
+          <div id="products" class="products"></div>
+        </section>
+        <aside class="cart-panel">
+          <div class="panel-title">
+            <h2>Your order</h2>
+            <span id="cart-count">0 items</span>
+          </div>
+          <div id="cart"></div>
+          <div class="total"><span>Menu subtotal</span><strong id="total">₹0</strong></div>
+          <p class="muted">
+            Any applicable taxes or charges are confirmed by staff before payment.
+          </p>
+          <label
+            >Kitchen note
+            <textarea
+              id="note"
+              maxlength="240"
+              placeholder="Any preferences? Please tell staff about allergies."
+              rows="2"
+            ></textarea></label
+          ><button id="place-order" class="primary" disabled>Place table order</button>
+          <p id="signin" class="muted" hidden>Enable cookies and reload to place your order.</p>
+          <p id="feedback" role="status" aria-live="polite"></p>
+          <details class="order-help">
+            <summary>Need help with your order?</summary>
+            <p>Prefer to speak to someone, or have a food allergy? Our team can help.</p>
+            <a href="tel:+918560845571">Call the café: +91 85608 45571</a>
+          </details>
+          <p class="muted"><a href="credits.html">Photo credits</a></p>
+          <section id="tracking" aria-live="polite"></section>
+        </aside>
+      </div>
+    </main>
+    <div id="announcer" class="sr-only" role="status"></div>
+  </body>
+</html>

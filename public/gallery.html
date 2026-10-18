@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#641e2c" />
+    <title>A look inside the café | Cafe Coffee Happy Days</title>
+    <meta
+      name="description"
+      content="See food, drinks, indoor seating and the storefront of Cafe Coffee Happy Days in Kunda, Amer, Jaipur."
+    />
+    <meta property="og:title" content="A look inside the café · Cafe Coffee Happy Days" />
+    <meta
+      property="og:description"
+      content="See food, drinks, indoor seating and the storefront of Cafe Coffee Happy Days in Kunda, Amer, Jaipur."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/cafe.webp" />
+    <link rel="icon" href="assets/outlet-logo.png" type="image/png" />
+    <link rel="stylesheet" href="site.css" />
+    <script src="app.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Cafe Coffee Happy Days",
+        "url": "",
+        "telephone": "+918560845571",
+        "servesCuisine": ["Vegetarian", "North Indian", "Chinese", "Cafe"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Main Bus Stand, Kunda, Amer",
+          "addressLocality": "Jaipur",
+          "addressRegion": "Rajasthan",
+          "postalCode": "302028",
+          "addressCountry": "IN"
+        },
+        "image": "/assets/cafe.webp",
+        "hasMenu": "/menu.html"
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#main" class="skip">Skip to content</a>
+    <div class="topline">
+      <div class="wrap">
+        <span>GOOD FOOD. GOOD COMPANY.</span
+        ><a href="visit.html"
+          >Kunda, Amer · Jaipur
+          <svg
+            class="ui-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M7 17 17 7M7 7h10v10" /></svg
+        ></a>
+      </div>
+    </div>
+    <header class="header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html" aria-label="Cafe Coffee Happy Days home"
+          ><span class="brand-cup"
+            ><img class="outlet-logo" src="assets/outlet-logo.png" alt="" /></span
+          ><span><small>CAFE COFFEE & RESTAURANT</small><b>HAPPY DAYS</b></span></a
+        ><button
+          class="menu-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="navigation"
+        >
+          <span></span><span></span>
+        </button>
+        <nav id="navigation" aria-label="Main navigation">
+          <a href="index.html">Home</a><a href="menu.html">Menu</a
+          ><a href="gallery.html" aria-current="page">The café</a><a href="visit.html">Visit us</a
+          ><a href="order.html">Order at your table</a>
+        </nav>
+        <button class="button header-cta" data-contact>
+          <svg
+            class="ui-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path
+              d="M8 3H5a2 2 0 0 0-2 2c0 8.84 7.16 16 16 16a2 2 0 0 0 2-2v-3l-5-2-2 2a12 12 0 0 1-6-6l2-2-2-5Z"
+            />
+          </svg>
+          Call the café
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-intro wrap">
+        <p class="eyebrow">A LOOK AROUND</p>
+        <h1>Get to know your<br />next <em>favourite spot.</em></h1>
+        <p class="lead">
+          A glimpse of the food, the seating and the little moments that make up Happy Days.
+        </p>
+      </section>
+      <section class="wrap gallery-section">
+        <div class="gallery-heading">
+          <div class="filters" aria-label="Filter gallery">
+            <button class="filter active" data-gallery-filter="All" aria-pressed="true">
+              Everything</button
+            ><button class="filter" data-gallery-filter="Café" aria-pressed="false">The café</button
+            ><button class="filter" data-gallery-filter="Food & drinks" aria-pressed="false">
+              Food & drinks
+            </button>
+          </div>
+          <span class="fine">A GLIMPSE OF HAPPY DAYS</span>
+        </div>
+        <div class="gallery-grid" id="photos">
+          <button
+            class="gallery-tile"
+            data-gallery-category="Café"
+            data-photo="assets/cafe.webp"
+            data-caption="A little light. A little company."
+          >
+            <img
+              src="assets/cafe.webp"
+              alt="Seating under warm lights at Happy Days"
+              class=""
+              loading="lazy"
+              decoding="async"
+            /><span
+              ><small>CAFÉ</small><strong>A little light. A little company.</strong
+              ><svg
+                class="ui-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 17 17 7M7 7h10v10" /></svg
+            ></span></button
+          ><button
+            class="gallery-tile"
+            data-gallery-category="Food & drinks"
+            data-photo="assets/shake.webp"
+            data-caption="Something sweet to sip."
+          >
+            <img
+              src="assets/shake.webp"
+              alt="Shake shown on the café listing"
+              class=""
+              loading="lazy"
+              decoding="async"
+            /><span
+              ><small>FOOD & DRINKS</small><strong>Something sweet to sip.</strong
+              ><svg
+                class="ui-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 17 17 7M7 7h10v10" /></svg
+            ></span></button
+          ><button
+            class="gallery-tile"
+            data-gallery-category="Café"
+            data-photo="assets/entrance.webp"
+            data-caption="You’ve found your spot."
+          >
+            <img
+              src="assets/entrance.webp"
+              alt="Cafe Coffee Happy Days storefront"
+              class=""
+              loading="lazy"
+              decoding="async"
+            /><span
+              ><small>CAFÉ</small><strong>You’ve found your spot.</strong
+              ><svg
+                class="ui-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 17 17 7M7 7h10v10" /></svg
+            ></span></button
+          ><button
+            class="gallery-tile"
+            data-gallery-category="Food & drinks"
+            data-photo="assets/dosa.webp"
+            data-caption="Make it a meal."
+          >
+            <img
+              src="assets/dosa.webp"
+              alt="Dosa with accompaniments"
+              class=""
+              loading="lazy"
+              decoding="async"
+            /><span
+              ><small>FOOD & DRINKS</small><strong>Make it a meal.</strong
+              ><svg
+                class="ui-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 17 17 7M7 7h10v10" /></svg
+            ></span></button
+          ><button
+            class="gallery-tile"
+            data-gallery-category="Food & drinks"
+            data-photo="assets/burger.webp"
+            data-caption="A quick bite, done right."
+          >
+            <img
+              src="assets/burger.webp"
+              alt="Burger photographed at the café"
+              class=""
+              loading="lazy"
+              decoding="async"
+            /><span
+              ><small>FOOD & DRINKS</small><strong>A quick bite, done right.</strong
+              ><svg
+                class="ui-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 17 17 7M7 7h10v10" /></svg
+            ></span></button
+          ><button
+            class="gallery-tile"
+            data-gallery-category="Café"
+            data-photo="assets/counter.webp"
+            data-caption="Welcome to Happy Days."
+          >
+            <img
+              src="assets/counter.webp"
+              alt="The café counter and indoor seating"
+              class=""
+              loading="lazy"
+              decoding="async"
+            /><span
+              ><small>CAFÉ</small><strong>Welcome to Happy Days.</strong
+              ><svg
+                class="ui-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 17 17 7M7 7h10v10" /></svg
+            ></span></button
+          ><button
+            class="gallery-tile"
+            data-gallery-category="Food & drinks"
+            data-photo="assets/paneer.webp"
+            data-caption="A familiar favourite."
+          >
+            <img
+              src="assets/paneer.webp"
+              alt="Paneer dish shown on the café listing"
+              class=""
+              loading="lazy"
+              decoding="async"
+            /><span
+              ><small>FOOD & DRINKS</small><strong>A familiar favourite.</strong
+              ><svg
+                class="ui-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 17 17 7M7 7h10v10" /></svg
+            ></span>
+          </button>
+        </div>
+        <p class="fine">
+          Photos from the café’s online listing. Serving presentation and the space may change.
+          <a href="credits.html">Photo credits</a>.
+        </p>
+      </section>
+      <section class="invitation">
+        <div class="wrap">
+          <div>
+            <p class="eyebrow">PULL UP A CHAIR</p>
+            <h2>Make today a Happy Day.</h2>
+            <p>You’ll find us near the main bus stand in Kunda, Amer.</p>
+          </div>
+          <div class="actions">
+            <a
+              class="button light"
+              href="https://www.google.com/maps/search/?api=1&query=Cafe+Coffee+Happy+Days+Kunda+Amer+Jaipur"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Find your way here
+              <svg
+                class="ui-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 17 17 7M7 7h10v10" /></svg></a
+            ><a class="button ghost-light" href="tel:+918560845571"
+              >Give us a call
+              <svg
+                class="ui-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 17 17 7M7 7h10v10" /></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="wrap footer-top">
+        <div>
+          <a class="brand footer-brand" href="index.html"
+            ><span class="brand-cup"
+              ><img class="outlet-logo" src="assets/outlet-logo.png" alt="" /></span
+            ><span><small>CAFE COFFEE & RESTAURANT</small><b>HAPPY DAYS</b></span></a
+          >
+          <p>A coffee break. A family meal.<br />A reason to stay a little longer.</p>
+        </div>
+        <div>
+          <h2>Come on over</h2>
+          <p>Main Bus Stand, Kunda<br />Amer, Jaipur, Rajasthan 302028</p>
+          <a
+            class="text-link"
+            href="https://www.google.com/maps/search/?api=1&query=Cafe+Coffee+Happy+Days+Kunda+Amer+Jaipur"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Get directions
+            <svg
+              class="ui-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M7 17 17 7M7 7h10v10" /></svg
+          ></a>
+        </div>
+        <div>
+          <h2>Make a plan</h2>
+          <a class="footer-phone" href="tel:+918560845571">+91 85608 45571</a>
+          <p>Tables, takeaway & everyday questions.</p>
+          <a class="text-link" href="order.html">Browse our menu & order →</a>
+        </div>
+      </div>
+      <div class="wrap footer-bottom">
+        <span>© 2026 Cafe Coffee Happy Days</span>
+        <div>
+          <a href="menu.html">Menu</a><a href="/staff">Staff dashboard</a
+          ><a href="privacy.html">Privacy</a><a href="credits.html">Photo credits</a>
+        </div>
+      </div>
+    </footer>
+    <div class="mobile-dock">
+      <a href="menu.html"
+        ><svg
+          class="ui-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path
+            d="M4 3h6a2 2 0 0 1 2 2v16a3 3 0 0 0-3-2H4V3Zm16 0h-6a2 2 0 0 0-2 2v16a3 3 0 0 1 3-2h5V3Z"
+          /></svg
+        >Explore menu</a
+      ><a href="tel:+918560845571"
+        ><svg
+          class="ui-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path
+            d="M8 3H5a2 2 0 0 0-2 2c0 8.84 7.16 16 16 16a2 2 0 0 0 2-2v-3l-5-2-2 2a12 12 0 0 1-6-6l2-2-2-5Z"
+          /></svg
+        >Call the café
+        <svg
+          class="ui-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M7 17 17 7M7 7h10v10" /></svg
+      ></a>
+    </div>
+    <dialog id="contact-dialog" class="contact-dialog" aria-labelledby="contact-title">
+      <button class="dialog-close" data-close aria-label="Close contact options">
+        <svg
+          class="ui-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="m6 6 12 12M18 6 6 18" />
+        </svg>
+      </button>
+      <p class="eyebrow">A TABLE, A TAKEAWAY, A QUESTION</p>
+      <h2 id="contact-title">We’re a call away.</h2>
+      <p>
+        Tell us when you’re coming and how many people are joining you. We’ll help you check a table
+        or plan your takeaway.
+      </p>
+      <a class="button" href="tel:+918560845571"
+        >Call +91 85608 45571
+        <svg
+          class="ui-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M7 17 17 7M7 7h10v10" /></svg
+      ></a>
+      <p class="fine">Your table or order is confirmed directly by the café.</p>
+      <a class="text-link" href="order.html">Browse our menu & order →</a>
+    </dialog>
+    <dialog id="photo-dialog" class="photo-dialog" aria-label="Photo viewer">
+      <button class="dialog-close" data-close aria-label="Close photo">
+        <svg
+          class="ui-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="m6 6 12 12M18 6 6 18" />
+        </svg></button
+      ><img id="large-photo" alt="" />
+      <div class="photo-caption">
+        <button id="previous-photo" aria-label="Previous photo">
+          <svg
+            class="ui-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="m14 6-6 6 6 6" />
+          </svg>
+        </button>
+        <p id="photo-label"></p>
+        <button id="next-photo" aria-label="Next photo">
+          <svg
+            class="ui-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="m10 6 6 6-6 6" />
+          </svg>
+        </button>
+      </div>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
