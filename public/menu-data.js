@@ -1,0 +1,117 @@
+// Generated from server/menu.json by npm run build.
+window.MENU_ITEMS = [
+  {
+    "id": "1",
+    "name": "Aloo Tikki Burger",
+    "category": "Burgers",
+    "price": 60
+  },
+  {
+    "id": "2",
+    "name": "Cheese Burger",
+    "category": "Burgers",
+    "price": 90
+  },
+  {
+    "id": "3",
+    "name": "OTC Burger",
+    "category": "Burgers",
+    "price": 80
+  },
+  {
+    "id": "4",
+    "name": "Grilled Paneer Burger",
+    "category": "Burgers",
+    "price": 99
+  },
+  {
+    "id": "5",
+    "name": "Spicy Paneer Burger",
+    "category": "Burgers",
+    "price": 120
+  },
+  {
+    "id": "6",
+    "name": "Cheese Sandwich",
+    "category": "Sandwiches",
+    "price": 90
+  },
+  {
+    "id": "7",
+    "name": "Masala Sandwich",
+    "category": "Sandwiches",
+    "price": 90
+  },
+  {
+    "id": "8",
+    "name": "OTC Sandwich",
+    "category": "Sandwiches",
+    "price": 90
+  },
+  {
+    "id": "9",
+    "name": "Grilled Veg Sandwich",
+    "category": "Sandwiches",
+    "price": 100
+  },
+  {
+    "id": "10",
+    "name": "Grilled Paneer Sandwich",
+    "category": "Sandwiches",
+    "price": 130
+  },
+  {
+    "id": "11",
+    "name": "Paneer Cheese Sandwich",
+    "category": "Sandwiches",
+    "price": 140
+  },
+  {
+    "id": "12",
+    "name": "Pasta Alfredo (White)",
+    "category": "Pasta",
+    "price": 160
+  },
+  {
+    "id": "13",
+    "name": "Pasta Arrabiata (Red)",
+    "category": "Pasta",
+    "price": 140
+  },
+  {
+    "id": "14",
+    "name": "Pasta Primavera (Pink)",
+    "category": "Pasta",
+    "price": 160
+  },
+  {
+    "id": "15",
+    "name": "Veg Roll",
+    "category": "Quick bites",
+    "price": 130
+  },
+  {
+    "id": "16",
+    "name": "Paneer Roll",
+    "category": "Quick bites",
+    "price": 180
+  },
+  {
+    "id": "17",
+    "name": "Cheese Balls",
+    "category": "Quick bites",
+    "price": 140
+  },
+  {
+    "id": "18",
+    "name": "Fried Momos (7 pcs)",
+    "category": "Quick bites",
+    "price": 90
+  },
+  {
+    "id": "19",
+    "name": "Steamed Momos (7 pcs)",
+    "category": "Quick bites",
+    "price": 90
+  }
+];
