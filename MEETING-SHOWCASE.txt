@@ -1,0 +1,17 @@
+CAFE COFFEE HAPPY DAYS — MEETING SHOWCASE BUILD
+
+Added for the client demo:
+- Smart Table 02 QR preview popup on the homepage
+- Floating “Table QR demo” trigger for easy presentation
+- Three-step Scan → Choose → Send explanation
+- Direct “Open as Table 02” demo link
+- QR-link table recognition now accepts both ?table=2 and ?table=T02
+- Clear “QR detected” state on the customer order screen
+- Existing SEO, menu, gallery, contact, ordering and staff-dashboard structure preserved
+
+Meeting tip:
+Open the homepage and click “Table QR demo”.
+For an automatic popup during the presentation, open the homepage with ?meeting=1 appended to the URL.
+
+Note:
+The embedded QR is a showcase QR pointed at the current Cafe Coffee Happy Days demo order page for Table 02. For production, regenerate table-specific QR codes after the final domain is approved.

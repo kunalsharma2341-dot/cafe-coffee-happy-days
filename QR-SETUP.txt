@@ -1,0 +1,11 @@
+Cafe Coffee Happy Days — Table 02 QR
+
+Encoded URL:
+https://cafecoffeehappydays.netlify.app/order.html?table=T02&source=table-qr
+
+Files:
+- public/assets/table-02-netlify-qr.png (website/deployment asset)
+- qr-assets/table-02-netlify-qr.png (easy-to-find printable copy)
+
+The QR welcome animation is visual only and is triggered by source=table-qr or source=meeting-demo.
+No title, description, structured data, robots.txt or sitemap.xml was changed for this animation.

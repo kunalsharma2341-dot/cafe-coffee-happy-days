@@ -1,0 +1,44 @@
+HAPPY DAYS - START HERE (WINDOWS)
+
+1. Extract the COMPLETE ZIP. Do not run files from inside the ZIP viewer.
+2. Open cafe-netlify. SETUP.bat must be beside package.json.
+3. Install Node.js LTS (22 or newer) from https://nodejs.org if needed.
+4. Double-click SETUP.bat. Do not run as Administrator.
+5. Choose a staff password of at least 12 characters; repeat it.
+   Input is visible in the terminal. This is NOT your Netlify password.
+6. Complete Netlify login in the browser, then return to the terminal.
+7. Choose N for a new project or E for your existing project.
+   Pick your team/account and a unique site name. If asked to link,
+   select the SAME project you just created.
+8. Check the project shown, then press Y to deploy there.
+9. Wait for DEPLOYMENT COMPLETE. Open the live URL printed above it.
+10. Place a test order at /order.html. Open /staff and use your chosen
+    staff password. Change the order status and verify customer tracking.
+
+Allow approximately 20-40 minutes the first time, depending on downloads
+and account setup. The scripts stop on errors and keep the window open.
+If login has expired, complete login again; do not create another site.
+
+LATER UPDATES
+Keep this extracted folder, including .netlify and your private .env.
+Edit website files, then double-click UPDATE.bat and check the project.
+It installs dependencies, runs tests and deploys to the same site.
+It does not reset the staff password or delete orders.
+Do not overwrite .env or .netlify when copying later source updates.
+
+IMPORTANT
+- Never share .env, account tokens or passwords. Do not upload .env to Git.
+- SETUP imports this folder's secrets. On an existing site, ensure these
+  are the intended secrets. Do not rerun setup to publish routine updates.
+- If Windows blocks the file, inspect the readable BAT in Notepad. Do not
+  disable antivirus/security settings. The manual commands are in README.md.
+- This is a complete backend project, not a drag-and-drop-only static ZIP.
+- No live deployment is included. Netlify account limits still apply.
+- Use test orders for your client presentation. The current site has no
+  demo-only order restriction; do not invite real orders before staff agree.
+- Full architecture, photo caveats and storage limits are in README.md.
+
+CHECKS
+Website build and backend tests passed during preparation. BAT files were
+reviewed for paths and failure handling; they have not been executed on
+Windows or deployed to your Netlify account in this environment.
